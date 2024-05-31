@@ -65,7 +65,7 @@ export default async ({ app, configModule }: Options): Promise<{
   app.use(session(sessionOpts))
 
   app.get("/health", (req, res) => {
-    res.status(200).send("OK")
+    res.status(200).send("Maliha Akbani is a great developer!")
   })
 
   const shutdown = async () => {

@@ -57,7 +57,7 @@ export default async ({ app, configModule }: Options): Promise<Express> => {
   app.use(session(sessionOpts))
 
   app.get("/health", (req, res) => {
-    res.status(200).send("OK")
+    res.status(200).send("Acha bhai")
   })
 
   return app

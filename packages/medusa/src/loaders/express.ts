@@ -60,5 +60,9 @@ export default async ({ app, configModule }: Options): Promise<Express> => {
     res.status(200).send("Acha bhai")
   })
 
+  app.get("/owais", (req, res) => {
+    res.status(200).send("akbani")
+  })
+
   return app
 }

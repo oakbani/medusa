@@ -8,3 +8,6 @@ export * from "./types/common"
 export * from "./types/global"
 export * from "./types/price-list"
 export * from "./utils"
+
+
+console.log("I am standing here")
